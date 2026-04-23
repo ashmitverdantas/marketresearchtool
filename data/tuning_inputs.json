@@ -1,0 +1,32 @@
+
+{
+  "last_updated": "2026-04-03",
+  "market_weights": {
+    "power": 0.2,
+    "municipal": 0.3,
+    "reBrownfield": 0.15,
+    "reStarts": 0.05,
+    "federal": 0.05,
+    "industrial": 0.15,
+    "stateDot": 0.05,
+    "oilGas": 0.05
+  },
+  "geo_slider_defaults": {
+    "northeast": [30, 5, 55, 0, 10],
+    "west": [10, 20, 10, 45, 15],
+    "midwest": [50, 5, 25, 10, 10],
+    "south": [0, 5, 35, 55, 5]
+  },
+  "rules": {
+    "market_weights_sum_to": 1.0,
+    "geo_defaults_sum_to": 100,
+    "geo_order": [
+      "Municipal",
+      "RE New Construction",
+      "RE Brownfield/Regulatory",
+      "Data Center/Power",
+      "DOT/State Govt"
+    ],
+    "notes": "Edit this file only when adjusting consolidated market weights or default geo mix sliders."
+  }
+}

@@ -1,0 +1,151 @@
+
+{
+  "tool": {
+    "name": "Verdantas Market Tool v6",
+    "horizon_months": 6,
+    "neutral_b2b": 1.07
+  },
+  "market": {
+    "keys": [
+      "power",
+      "municipal",
+      "reBrownfield",
+      "reStarts",
+      "federal",
+      "industrial",
+      "stateDot",
+      "oilGas"
+    ],
+    "names": {
+      "power": "Power / Utility",
+      "municipal": "Municipal",
+      "reBrownfield": "RE Brownfield / Regulatory",
+      "reStarts": "RE New Construction Starts",
+      "federal": "Federal Engineering / Remediation",
+      "industrial": "Industrial & Manufacturing",
+      "stateDot": "State Govt / DOTs / Water",
+      "oilGas": "Oil & Gas / E&P"
+    },
+    "short": {
+      "power": "Power/Utility",
+      "municipal": "Municipal",
+      "reBrownfield": "RE Brownfield",
+      "reStarts": "RE New Starts",
+      "federal": "Federal",
+      "industrial": "Industrial/Mfg",
+      "stateDot": "State/DOT",
+      "oilGas": "Oil & Gas"
+    }
+  },
+  "geo": {
+    "keys": ["northeast", "west", "midwest", "south"],
+    "mix_labels": [
+      "Municipal",
+      "RE New Construction",
+      "RE Brownfield/Regulatory",
+      "Data Center/Power",
+      "DOT/State Govt"
+    ],
+    "mix_markets": [
+      "municipal",
+      "reStarts",
+      "reBrownfield",
+      "power",
+      "stateDot"
+    ]
+  },
+  "pl": {
+    "list": [
+      {
+        "key": "northeast",
+        "label": "Northeast",
+        "type": "geo",
+        "series_key": "northeast"
+      },
+      {
+        "key": "west",
+        "label": "West",
+        "type": "geo",
+        "series_key": "west"
+      },
+      {
+        "key": "midwest",
+        "label": "Midwest",
+        "type": "geo",
+        "series_key": "midwest"
+      },
+      {
+        "key": "south",
+        "label": "South",
+        "type": "geo",
+        "series_key": "southeast"
+      },
+      {
+        "key": "eng_pw",
+        "label": "Energy \u2013 Power",
+        "type": "energy",
+        "series_key": "energy_services",
+        "extKeys": ["power"],
+        "extWts": [1.0]
+      },
+      {
+        "key": "eng_og",
+        "label": "Energy \u2013 Oil & Gas",
+        "type": "energy",
+        "series_key": "energy_services",
+        "extKeys": ["oilGas"],
+        "extWts": [1.0]
+      },
+      {
+        "key": "nbe_ehs",
+        "label": "NBE \u2013 EHS & Facilities Eng. Design",
+        "type": "nbe",
+        "series_key": "nbe",
+        "extKeys": ["industrial", "federal", "municipal"],
+        "extWts": [0.5, 0.3, 0.2]
+      },
+      {
+        "key": "nbe_flow",
+        "label": "NBE \u2013 Flow Simulation & Optimization",
+        "type": "nbe",
+        "series_key": "nbe",
+        "extKeys": ["industrial", "power", "municipal"],
+        "extWts": [0.4, 0.3, 0.3]
+      },
+      {
+        "key": "nbe_sf",
+        "label": "NBE \u2013 Superfund Project Coordination",
+        "type": "nbe",
+        "series_key": "nbe",
+        "extKeys": ["federal", "reBrownfield", "municipal"],
+        "extWts": [0.5, 0.3, 0.2]
+      },
+      {
+        "key": "nbe_aq",
+        "label": "NBE \u2013 Aquatic Ecology & Eco Engineering",
+        "type": "nbe",
+        "series_key": "nbe",
+        "extKeys": ["municipal", "stateDot", "federal"],
+        "extWts": [0.4, 0.35, 0.25]
+      }
+    ]
+  },
+  "calibration": {
+    "lag_months": 6,
+    "slope_window_months": 6,
+    "slope_cap_pct": 2.0,
+    "targets": {
+      "flat": {
+        "months": ["Jan'25", "Feb'25", "Mar'25", "Apr'25", "May'25", "Jun'25"],
+        "growth": 0.0
+      },
+      "growth": {
+        "months": ["Jul'25", "Aug'25", "Sep'25", "Oct'25", "Nov'25", "Dec'25"],
+        "growth": 4.0
+      }
+    }
+  },
+  "ute": {
+    "window_months": 3
+  }
+}
