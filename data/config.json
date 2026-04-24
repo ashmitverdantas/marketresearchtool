@@ -1,4 +1,3 @@
-
 {
   "tool": {
     "name": "Verdantas Market Tool v6",
@@ -38,7 +37,12 @@
     }
   },
   "geo": {
-    "keys": ["northeast", "west", "midwest", "south"],
+    "keys": [
+      "northeast",
+      "west",
+      "midwest",
+      "south"
+    ],
     "mix_labels": [
       "Municipal",
       "RE New Construction",
@@ -84,49 +88,89 @@
         "key": "eng_pw",
         "label": "Energy \u2013 Power",
         "type": "energy",
-        "series_key": "energy_services",
-        "extKeys": ["power"],
-        "extWts": [1.0]
+        "series_key": "eng_pw",
+        "extKeys": [
+          "power"
+        ],
+        "extWts": [
+          1.0
+        ]
       },
       {
         "key": "eng_og",
         "label": "Energy \u2013 Oil & Gas",
         "type": "energy",
-        "series_key": "energy_services",
-        "extKeys": ["oilGas"],
-        "extWts": [1.0]
+        "series_key": "eng_og",
+        "extKeys": [
+          "oilGas"
+        ],
+        "extWts": [
+          1.0
+        ]
       },
       {
         "key": "nbe_ehs",
         "label": "NBE \u2013 EHS & Facilities Eng. Design",
         "type": "nbe",
-        "series_key": "nbe",
-        "extKeys": ["industrial", "federal", "municipal"],
-        "extWts": [0.5, 0.3, 0.2]
+        "series_key": "nbe_ehs",
+        "extKeys": [
+          "industrial",
+          "federal",
+          "municipal"
+        ],
+        "extWts": [
+          0.5,
+          0.3,
+          0.2
+        ]
       },
       {
         "key": "nbe_flow",
         "label": "NBE \u2013 Flow Simulation & Optimization",
         "type": "nbe",
-        "series_key": "nbe",
-        "extKeys": ["industrial", "power", "municipal"],
-        "extWts": [0.4, 0.3, 0.3]
+        "series_key": "nbe_flow",
+        "extKeys": [
+          "industrial",
+          "power",
+          "municipal"
+        ],
+        "extWts": [
+          0.4,
+          0.3,
+          0.3
+        ]
       },
       {
         "key": "nbe_sf",
         "label": "NBE \u2013 Superfund Project Coordination",
         "type": "nbe",
-        "series_key": "nbe",
-        "extKeys": ["federal", "reBrownfield", "municipal"],
-        "extWts": [0.5, 0.3, 0.2]
+        "series_key": "nbe_sf",
+        "extKeys": [
+          "federal",
+          "reBrownfield",
+          "municipal"
+        ],
+        "extWts": [
+          0.5,
+          0.3,
+          0.2
+        ]
       },
       {
         "key": "nbe_aq",
         "label": "NBE \u2013 Aquatic Ecology & Eco Engineering",
         "type": "nbe",
-        "series_key": "nbe",
-        "extKeys": ["municipal", "stateDot", "federal"],
-        "extWts": [0.4, 0.35, 0.25]
+        "series_key": "nbe_aq",
+        "extKeys": [
+          "municipal",
+          "stateDot",
+          "federal"
+        ],
+        "extWts": [
+          0.4,
+          0.35,
+          0.25
+        ]
       }
     ]
   },
@@ -136,11 +180,25 @@
     "slope_cap_pct": 2.0,
     "targets": {
       "flat": {
-        "months": ["Jan'25", "Feb'25", "Mar'25", "Apr'25", "May'25", "Jun'25"],
+        "months": [
+          "Jan'25",
+          "Feb'25",
+          "Mar'25",
+          "Apr'25",
+          "May'25",
+          "Jun'25"
+        ],
         "growth": 0.0
       },
       "growth": {
-        "months": ["Jul'25", "Aug'25", "Sep'25", "Oct'25", "Nov'25", "Dec'25"],
+        "months": [
+          "Jul'25",
+          "Aug'25",
+          "Sep'25",
+          "Oct'25",
+          "Nov'25",
+          "Dec'25"
+        ],
         "growth": 4.0
       }
     }

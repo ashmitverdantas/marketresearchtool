@@ -1,619 +1,649 @@
 {
-"last_updated": "2026-04-03",
-"consolidated": {
-"summary": "External engineering services demand remains led by power-grid modernization and compliance-driven municipal water programs, while new construction-linked work stays soft due to weaker permit momentum. Industrial/manufacturing remains a bright spot where mega-project construction continues, but commodity-driven oil & gas remains capped by capital discipline and a still-cautious E&P spending posture. Overall, the mix favors regulated/mandated spend over discretionary new-build, supporting mid-single to low-double-digit consolidated external growth with moderate confidence.",
-"tailwinds": [
-"Utility grid hardening and modernization spending remains elevated, including major multi-year wildfire mitigation and rate-case supported investments (PG&E multi-year capex plan; SCE multi-year GRC/WMP). (Sources: PG&E capex plan; CPUC SCE GRC; SCE WMP)",
-"Water infrastructure funding remains structurally supported by SRF/IIJA allotments (FY2025 DWSRF totals include large allocations for CA/FL/OH and emerging contaminants). (Source: EPA FY2025 SRF allotments)",
-"Transportation capital programs remain robust in select states, including Florida’s FY25–26 transportation budget and New York’s fully funded MTA 2025–29 capital plan. (Sources: FDOT FY25–26; NY FY26 budget/MTA plan)"
-],
-"headwinds": [
-"Housing permits and starts remain a mixed-to-soft leading indicator environment, with regional declines in permits limiting reStarts-linked demand upside. (Source: NAHB regional 2025 permits/starts summary via Florida Realtors/NAHB)",
-"State fiscal constraints can slow discretionary capital starts even where long-term needs are large (e.g., California multi-year budget deficits). (Source: CA LAO spending plan overview)",
-"E&P operators continue to emphasize capital discipline and some surveys show higher shares planning to trim 2026 capex, keeping oilGas engineering demand muted. (Sources: Dallas Fed survey reporting; RSM outlook summary)"
-],
-"watch_items": [
-"Near-term housing permit direction as the best leading indicator for reStarts-linked work; sustained YoY permit declines would keep growth in low single digits or negative. (Source: NAHB regional permits/starts summary via Florida Realtors/NAHB)",
-"Oil and gas price and capex expectations into 2026 (WTI volatility and survey-based capex trimming signal), which will directly flow through to upstream/midstream facility engineering demand. (Sources: FRED WTI; Dallas Fed survey reporting)"
-],
-"confidence": "Medium"
-},
-"markets": {
-"power": {
-"extGrowth": 14.5,
-"status": "Runway strong (utility capex + mandated resilience)",
-"statusClass": "badge-strong-positive",
-"kpis": [
-{
-"dot": "p",
-"text": "PG&E disclosed a multi‑year investment plan (~$73B over five years) emphasizing infrastructure upgrades and load growth enablement, supporting sustained T&D/substation engineering demand. (Source: POWER Magazine on PG&E plan)"
-},
-{
-"dot": "p",
-"text": "SCE wildfire mitigation plan anticipates ~$6.2B of investment over 2026–2028, including covered conductor and undergrounding, sustaining engineering-intensive programs. (Source: Edison International newsroom)"
-},
-{
-"dot": "p",
-"text": "CPUC’s SCE 2025 GRC authorizes multi-year revenues with major investments in wildfire risk reduction, aging infrastructure upgrades, and a “future-ready grid.” (Source: CPUC fact sheet)"
-},
-{
-"dot": "p",
-"text": "Grid transition work and transmission planning intensity remains high in New England, reflecting ongoing reliability/transition initiatives that require technical engineering support. (Source: ISO-NE 2026 Annual Work Plan summary)"
-},
-{
-"dot": "c",
-"text": "California’s state budget remains in deficit mode, which can temper some discretionary public capital starts even as regulated utility capex stays strong. (Source: CA LAO spending plan overview)"
-}
-],
-"tailwind": "Regulated utility capital programs (grid hardening, wildfire mitigation, modernization, and electrification load enablement) provide multi-year, low-discretion demand visibility, supporting above-trend engineering growth.",
-"headwind": "State fiscal pressures can slow some discretionary infrastructure starts, and permitting/implementation bottlenecks can delay timing even when programs are funded."
-},
-"municipal": {
-"extGrowth": 6.8,
-"status": "Steady expansion (SRF + PFAS-driven work)",
-"statusClass": "badge-positive",
-"kpis": [
-{
-"dot": "p",
-"text": "FY2025 Drinking Water SRF allotments show substantial combined base + IIJA funding, including large totals for CA ($468.7M), FL ($156.8M), and OH ($98.1M), supporting municipal capital programs. (Source: EPA FY2025 SRF allotments)"
-},
-{
-"dot": "p",
-"text": "EPA SRF communications emphasize FY2025 allotments and continued funding rounds aimed at drinking water improvements and lead reduction, sustaining programmatic demand. (Source: EPA DWSRF page)"
-},
-{
-"dot": "p",
-"text": "EPA memorandum details SRF/IIJA structures including emerging contaminants funding as 100% additional subsidy, supporting PFAS/emerging contaminant compliance projects. (Source: EPA FY2025 SRF allotments memo)"
-},
-{
-"dot": "p",
-"text": "Florida’s FY25–26 transportation/work program investment indicates continued state-level capital program execution capacity, consistent with broader public infrastructure spend resilience. (Source: FDOT FY25–26 release)"
-},
-{
-"dot": "n",
-"text": "Project delivery capacity constraints (labor, procurement) can slow municipal bid/award timing even when funding is available, creating near-term pacing risk. (Indicator context: elevated infrastructure execution volume implied by SRF totals) (Source: EPA FY2025 SRF allotments)"
-}
-],
-"tailwind": "SRF/IIJA funding and emerging contaminants allocations support durable municipal water/wastewater design and compliance demand, with relatively low client discretion once programs are programmed.",
-"headwind": "Execution pacing can be uneven as utilities/municipalities manage procurement cycles and delivery constraints, moderating near-term acceleration despite strong funding availability."
-},
-"reBrownfield": {
-"extGrowth": 7.0,
-"status": "Positive but selective (reg-driven redevelopment)",
-"statusClass": "badge-positive",
-"kpis": [
-{
-"dot": "p",
-"text": "Industrial and manufacturing investment remains active in several regions, sustaining due diligence and remediation needs tied to site redevelopment and facility upgrades. (Context: CHIPS-driven supply chain investment wave) (Source: Semiconductor Industry Association investment tracker)"
-},
-{
-"dot": "p",
-"text": "Large-scale advanced manufacturing projects continue to progress (e.g., Intel Ohio One ongoing construction and cumulative multi-year spend), supporting brownfield/industrial site work adjacent to redevelopment cycles. (Source: Intel Ohio One timeline update)"
-},
-{
-"dot": "p",
-"text": "Federal environmental programs remain a steady baseline (e.g., ongoing Superfund/NPL and agency environmental activity), supporting regulatory-driven assessment and remediation work. (Baseline context supported by continued federal contracting environment) (Source: BEA/US macro does not directly cover; maintain neutral KPI with program stability) (Source proxy: BEA GDP release indicates continued investment contribution, but federal spend decelerated in Q4 2025)"
-},
-{
-"dot": "n",
-"text": "Private redevelopment timing is sensitive to financing and construction cycles; softening permits/starts can indirectly reduce near-term redevelopment churn. (Source: NAHB regional permits/starts summary via Florida Realtors/NAHB)"
-},
-{
-"dot": "c",
-"text": "Net effect is selective strength: compliance-driven work remains durable, but discretionary redevelopment cadence is mixed alongside broader construction normalization. (Source: NAHB regional permits/starts summary via Florida Realtors/NAHB)"
-}
-],
-"tailwind": "Regulatory-driven redevelopment and industrial site turnover continue to generate steady Phase I/II and remediation support, especially where manufacturing investment concentrates.",
-"headwind": "Discretionary redevelopment can slow when private construction momentum softens, reducing near-term transaction and redevelopment velocity."
-},
-"reStarts": {
-"extGrowth": -2.0,
-"status": "Still weak (permits soft; site work pressured)",
-"statusClass": "badge-negative",
-"kpis": [
-{
-"dot": "neg",
-"text": "Regional 2025 permit activity was down in the Northeast (-7.7%), South (-5.2%), and West (-1.9%), limiting forward site-civil/permitting demand tied to new starts. (Source: NAHB regional permit summary via Florida Realtors)"
-},
-{
-"dot": "n",
-"text": "Single-family starts nationally were down in 2025 versus 2024 (-6.9%), a headwind for site/civil demand tied to housing. (Source: NAHB data summary via Florida Realtors)"
-},
-{
-"dot": "c",
-"text": "Florida’s construction market shows a “reset” dynamic with modest statewide permit declines (~4% YoY) and pockets of strength, but not a broad rebound signal. (Source: HBWeekly Florida permitting analysis)"
-},
-{
-"dot": "n",
-"text": "January 2026 national permits fell 5.4% m/m, signaling near-term caution in new project authorizations despite volatile monthly starts. (Source: U.S. Census New Residential Construction, Jan 2026)"
-},
-{
-"dot": "c",
-"text": "Momentum remains mixed: multifamily volatility can lift starts temporarily, but permits are the tighter leading indicator and remain soft. (Source: TD Economics commentary on Jan 2026 starts/permits)"
-}
-],
-"tailwind": "Localized pockets (select Florida subregions and intermittent multifamily bursts) can create tactical opportunities, but they are not yet a broad cycle turn.",
-"headwind": "Permits remain the key leading indicator and are declining in several regions and in recent monthly data, keeping reStarts-linked demand flat-to-negative near term."
-},
-"federal": {
-"extGrowth": 1.5,
-"status": "Flat-to-low growth (steady programs; budget uncertainty)",
-"statusClass": "badge-neutral",
-"kpis": [
-{
-"dot": "c",
-"text": "Federal macro backdrop shows slower GDP growth in late 2025 with a downturn in government spending contribution in Q4, consistent with a cautious near-term federal services growth environment. (Source: BEA GDP second estimate Q4 2025)"
-},
-{
-"dot": "p",
-"text": "Transportation IIJA funding continues to progress with a large share obligated and outlayed, supporting federally assisted infrastructure execution. (Source: USDOT IIJA funding status as of Jan 31, 2026)"
-},
-{
-"dot": "c",
-"text": "Some IIJA funds/authorities are staged, with portions becoming available later, which can smooth growth rather than accelerate sharply. (Source: GAO IIJA grant status report)"
-},
-{
-"dot": "n",
-"text": "Timing risk remains tied to appropriations, agency procurement cycles, and potential federal policy uncertainty, limiting near-term acceleration. (Source: BEA note re shutdown rescheduling and revisions in GDP release context)"
-},
-{
-"dot": "c",
-"text": "Overall demand signal is stable but not strongly accelerating; maintain near-prior growth absent a clear new federal program catalyst. (Source: USDOT IIJA funding status)"
-}
-],
-"tailwind": "Ongoing federally assisted infrastructure and environmental programs provide a stable baseline of demand, especially where formula funding is already flowing.",
-"headwind": "Appropriations timing and procurement pacing can keep growth in low single digits, with elevated uncertainty around the timing of incremental program starts."
-},
-"industrial": {
-"extGrowth": 4.5,
-"status": "Improving (manufacturing investment tailwind)",
-"statusClass": "badge-positive",
-"kpis": [
-{
-"dot": "p",
-"text": "Semiconductor ecosystem projects exceed $640B in announced investments across 140+ projects since 2020, supporting multi-year facilities and compliance engineering demand across industrial supply chains. (Source: Semiconductor Industry Association tracker, last updated Jan 30, 2026)"
-},
-{
-"dot": "p",
-"text": "Mega-project construction continues in Ohio (Intel Ohio One ongoing, with multi-year completion horizon), sustaining long-duration industrial site and facility engineering demand. (Source: Intel Ohio One timeline update)"
-},
-{
-"dot": "p",
-"text": "Reported 2025 spend on Intel Ohio One was ~$1.4B–$1.53B, indicating continued active construction and associated engineering pull-through. (Sources: WKBN/NBC4 and WHIO reporting on Intel annual report)"
-},
-{
-"dot": "c",
-"text": "Manufacturing construction spending has shown signs of cooling from peak levels in recent political/economic narratives, implying the need to be selective by subsector and region. (Source: FactCheck.org summary citing Census construction data)"
-},
-{
-"dot": "p",
-"text": "Net signal remains positive because the active pipeline is large and multi-year even if the growth rate moderates from peak boom conditions. (Source: SIA tracker)"
-}
-],
-"tailwind": "Large, multi-year advanced manufacturing and broader reshoring-linked facility programs sustain EHS, permitting, and facilities engineering demand even if headline construction spending growth normalizes.",
-"headwind": "Growth is uneven and can moderate as projects shift from announcement to execution and as broader manufacturing construction spending cools from peak levels, requiring subsector selectivity."
-},
-"stateDot": {
-"extGrowth": 5.5,
-"status": "Solid (state work programs + IIJA flow)",
-"statusClass": "badge-positive",
-"kpis": [
-{
-"dot": "p",
-"text": "Florida’s FY25–26 budget includes ~$15.1B in transportation investments and $13.7B for the State Transportation Work Program, supporting sustained DOT engineering demand. (Source: FDOT FY25–26 release)"
-},
-{
-"dot": "p",
-"text": "New York FY26 enacted budget fully funds the MTA’s $68.4B 2025–29 capital plan and includes historic investments in roads/bridges, supporting transportation-adjacent engineering work. (Source: NY Division of the Budget press release)"
-},
-{
-"dot": "p",
-"text": "IIJA highway and transportation funding framework continues through FY2026 with formula apportionments, supporting a durable state DOT funding backdrop. (Source: FHWA IIJA funding overview)"
-},
-{
-"dot": "p",
-"text": "DOT reports IIJA funding progress with substantial obligations/outlays, indicating ongoing conversion of authorizations into projects. (Source: USDOT IIJA funding status)"
-},
-{
-"dot": "c",
-"text": "Delivery pacing varies by state as projects move through design, environmental review, and procurement, which can smooth near-term growth. (Source: USDOT IIJA funding status methodology notes)"
-}
-],
-"tailwind": "Large state work programs and continued IIJA formula/discretionary flows sustain a favorable pipeline for DOT and transportation environmental/NEPA-related engineering.",
-"headwind": "Project conversion timing can be lumpy due to environmental review, procurement, and right-of-way constraints, moderating the pace of near-term acceleration."
-},
-"oilGas": {
-"extGrowth": 1.0,
-"status": "Muted (capex discipline; volatile prices)",
-"statusClass": "badge-neutral",
-"kpis": [
-{
-"dot": "c",
-"text": "Baker Hughes rig count shows U.S. rigs at 543 (week of Mar 27, 2026), down year-over-year (-49 vs Mar 28, 2025), indicating subdued drilling intensity. (Source: Baker Hughes rig count)"
-},
-{
-"dot": "n",
-"text": "Dallas Fed survey commentary indicates oil & gas activity slowing and a meaningful share of respondents expecting 2026 budgets to be lower, consistent with disciplined E&P capex. (Source: Journal of Petroleum Technology summary of Dallas Fed survey)"
-},
-{
-"dot": "c",
-"text": "Forecast discussions for 2026 include expectations of potentially lower WTI price scenarios versus company assumptions, which can constrain new upstream project starts. (Source: RSM oil & gas outlook for 2026)"
-},
-{
-"dot": "c",
-"text": "Henry Hub natural gas spot price was about $3.05/MMBtu in Mar 2026, suggesting stable-to-moderate gas price support but not a clear breakout catalyst. (Source: FRED Henry Hub)"
-},
-{
-"dot": "c",
-"text": "WTI spot price was ~$90.84/bbl in Mar 2026 (monthly), reflecting volatility but not enough alone to overcome capex discipline without sustained higher price expectations. (Source: FRED WTI)"
-}
-],
-"tailwind": "Stable-to-moderate commodity pricing can sustain essential facility modifications and maintenance capital, but the upside is capped by ongoing capital discipline.",
-"headwind": "Rig counts remain down year-over-year and surveys indicate cautious 2026 capex planning, keeping upstream/midstream facility engineering growth in low single digits."
-}
-},
-"value_drivers": [
-{
-"rank": 1,
-"title": "Utility capex visibility and duration",
-"body": "Multi-year, rate-case-supported utility programs (grid hardening, wildfire mitigation, modernization) create durable, low-discretion demand that commands buyer premiums for recurring, programmatic revenue. California utility plans and regulatory-approved investment frameworks reinforce sustained spend visibility over the next several years.",
-"tags": [
-"utility-capex",
-"multi-year",
-"resilience"
-]
-},
-{
-"rank": 2,
-"title": "Water compliance and SRF funding",
-"body": "SRF/IIJA funding and emerging contaminant allocations underpin sustained municipal water/wastewater investment, which is often compliance-driven and less discretionary. The scale of FY2025 SRF allotments supports predictable project flow and enhances valuation for firms positioned in program-funded municipal work.",
-"tags": [
-"SRF",
-"PFAS",
-"municipal"
-]
-},
-{
-"rank": 3,
-"title": "Infrastructure reauthorization tailwinds",
-"body": "Federal and state transportation programs supported by IIJA formula/discretionary funding and large state work programs create broad, multi-client demand visibility. Buyers pay for diversified, policy-supported infrastructure exposure, especially where funds are already moving into obligations and outlays.",
-"tags": [
-"IIJA",
-"DOT",
-"multi-client"
-]
-},
-{
-"rank": 4,
-"title": "Advanced manufacturing mega-project wave",
-"body": "Large announced semiconductor and industrial projects create multi-year demand for facilities engineering, permitting, and EHS support, and they anchor platform synergies in fast-growing industrial corridors. The breadth of announced semiconductor ecosystem projects and ongoing mega-project execution supports buyer interest in scale and specialized capabilities.",
-"tags": [
-"manufacturing",
-"CHIPS",
-"facilities"
-]
-},
-{
-"rank": 5,
-"title": "Complexity premium in permitting",
-"body": "Where project environments are complex (grid interconnections, resilience programs, transportation NEPA, and compliance-driven water), buyers pay for firms that can execute across regulatory interfaces and long permitting cycles. Sustained program volume in power, transportation, and water supports a premium for delivery certainty and risk-managed execution.",
-"tags": [
-"permitting",
-"regulatory",
-"execution"
-]
-}
-],
-"geo_adjustment_factors": {
-"northeast": {
-"factor": 0.90,
-"rationale": "Despite large transit/repair programs (e.g., MA MBTA capital plan and NY MTA capital plan), private construction leading indicators remain softer in permits for the Northeast, keeping regional demand below national average on balance. (Sources: NY FY26 budget/MTA plan; NAHB regional permit summary via Florida Realtors; MBTA CIP)"
-},
-"west": {
-"factor": 1.20,
-"rationale": "California-weighted West remains strongest due to exceptional utility capex concentration (multi-year PG&E plan and SCE wildfire/grid modernization investments), sustaining above-average engineering demand relative to national. (Sources: PG&E capex plan; SCE wildfire mitigation plan; CPUC SCE GRC)"
-},
-"midwest": {
-"factor": 1.15,
-"rationale": "Ohio-weighted Midwest remains above average as long-duration advanced manufacturing mega-project construction continues (Intel Ohio One) and Midwest regional starts/permits were relatively stronger than other regions in 2025, supporting broader A/E/C demand. (Sources: Intel Ohio One update; NAHB regional starts/permits summary via Florida Realtors)"
-},
-"south": {
-"factor": 1.05,
-"rationale": "Florida-weighted South stays modestly above average due to a large state transportation work program and ongoing grid modernization investment, partially offset by softer South housing permits/starts trends. (Sources: FDOT FY25–26; NAHB regional starts/permits summary via Florida Realtors)"
-}
-},
-"pl_narratives": {
-"northeast": {
-"external_drivers": "Northeast demand is supported by major public transit and state-of-good-repair programs, including fully funded MTA capital investments and ongoing MBTA modernization priorities. However, softer regional permit trends and higher cost/friction in private development keep new-build-driven demand below national, shifting the mix toward public programs and maintenance-heavy work.",
-"influencers": [
-"NY MTA 2025–29 capital plan funding and execution pace (signals, stations, resiliency).",
-"MBTA FY26–30 capital investment plan emphasizing safety, reliability, and modernization.",
-"Northeast permitting softness relative to other regions constraining reStarts-linked work."
-],
-"investment_recs": {
-"municipal": {
-"rating": "Moderate Invest",
-"text": "SRF/IIJA water funding remains durable, and Northeast states continue to execute water/wastewater renewals; prioritize compliance and rehabilitation programs over discretionary expansions. (Source: EPA FY2025 SRF allotments)"
-},
-"reStarts": {
-"rating": "Avoid",
-"text": "Regional permits in the Northeast were down in 2025, limiting near-term site/civil and permitting demand tied to new construction; stay selective and avoid scaling for a broad rebound. (Source: NAHB permit summary via Florida Realtors)"
-},
-"reBrownfield": {
-"rating": "Light",
-"text": "Maintain capability for transaction-driven Phase I/II and redevelopment support, but expect mixed timing as private development activity remains uneven. (Source: NAHB permits/starts context)"
-},
-"power": {
-"rating": "Moderate Invest",
-"text": "Invest selectively in grid transition planning and reliability modernization where regional ISOs/TOs advance long-term initiatives, but the West remains the strongest utility capex center. (Source: ISO-NE work plan)"
-},
-"stateDot": {
-"rating": "Strong Invest",
-"text": "Public transportation and state/federal transport capital programs are a core Northeast strength (NY MTA fully funded plan), supporting consistent NEPA/environmental and design work. (Source: NY FY26 budget/MTA plan)"
-}
-},
-"watch_items": [
-"Direction of Northeast building permits as the key leading indicator for reStarts-linked work.",
-"Timing/letting cadence of major transit capital programs (MTA/MBTA) that can shift quarterly demand."
-]
-},
-"west": {
-"external_drivers": "West demand is driven disproportionately by California utility capital programs: grid hardening, wildfire mitigation, and modernization to support electrification and load growth. Multi-year capex plans and regulatory frameworks provide high visibility and low discretion, making the West the strongest region relative to national.",
-"influencers": [
-"PG&E multi‑year capex plan supporting T&D, modernization, and undergrounding programs.",
-"SCE 2026–28 wildfire mitigation investments sustaining engineering-intensive hardening work.",
-"California fiscal constraints may affect discretionary public projects but utilities remain robust."
-],
-"investment_recs": {
-"municipal": {
-"rating": "Moderate Invest",
-"text": "Municipal water/wastewater demand remains strong where SRF/IIJA funding is large (California totals are high), with emphasis on compliance and rehabilitation programs. (Source: EPA FY2025 SRF allotments)"
-},
-"reStarts": {
-"rating": "Light",
-"text": "West permits were modestly down in 2025, keeping construction-linked permitting/site work from becoming a growth engine; stay selective by submarket and project type. (Source: NAHB permit summary via Florida Realtors)"
-},
-"reBrownfield": {
-"rating": "Moderate Invest",
-"text": "Industrial redevelopment and compliance-driven remediation remain supportive, particularly around manufacturing and infrastructure-adjacent sites, though timing is mixed with private construction normalization. (Source: SIA investment tracker)"
-},
-"power": {
-"rating": "Strong Invest",
-"text": "West is the clearest power-engineering growth engine due to multi-year, rate-case-supported grid hardening and modernization programs. (Sources: PG&E plan; CPUC SCE GRC; SCE WMP)"
-},
-"stateDot": {
-"rating": "Moderate Invest",
-"text": "Transportation funding remains durable nationally via IIJA, but West outperformance is still primarily utility-driven; invest for steady DOT work rather than expecting it to match power momentum. (Sources: FHWA IIJA funding overview; USDOT IIJA status)"
-}
-},
-"watch_items": [
-"Regulatory approvals and execution pacing for California utility hardening and modernization programs.",
-"California state budget decisions that could influence discretionary infrastructure timing outside regulated utilities."
-]
-},
-"midwest": {
-"external_drivers": "Midwest demand is lifted by Ohio-weighted advanced manufacturing and long-duration mega-project construction, supporting facilities engineering, EHS, and adjacent infrastructure work. Regional construction indicators were relatively more resilient in 2025 than other regions, providing a broader base than a single-project story.",
-"influencers": [
-"Intel Ohio One remains a multi-year, active construction program with continued spend reported for 2025.",
-"Midwest 2025 permits and starts were stronger than South/West on a regional basis, supporting broader site/civil activity.",
-"SRF/IIJA water funding for Ohio supports municipal capital program demand."
-],
-"investment_recs": {
-"municipal": {
-"rating": "Moderate Invest",
-"text": "SRF/IIJA allocations for Ohio support steady municipal rehabilitation and compliance work; prioritize funded rehabilitation and emerging contaminant scopes. (Source: EPA FY2025 SRF allotments)"
-},
-"reStarts": {
-"rating": "Moderate Invest",
-"text": "Midwest region showed relatively stronger permit/starts trends in 2025 versus other regions, supporting selective growth in construction-linked permitting/site work. (Source: NAHB regional starts/permits summary via Florida Realtors)"
-},
-"reBrownfield": {
-"rating": "Strong Invest",
-"text": "Manufacturing investment and site turnover drive due diligence and remediation needs; mega-project ecosystems create steady Phase I/II and redevelopment compliance demand. (Sources: SIA tracker; Intel Ohio One update)"
-},
-"power": {
-"rating": "Moderate Invest",
-"text": "Utility modernization is supportive nationally, but Midwest relative advantage is more manufacturing-led; invest for steady grid work without assuming West-like intensity. (Source: ISO/grid transition context)"
-},
-"stateDot": {
-"rating": "Moderate Invest",
-"text": "IIJA formula funding sustains state DOT backlogs; prioritize NEPA/environmental services tied to programmed projects and bridge/road renewals. (Sources: FHWA IIJA funding; USDOT IIJA status)"
-}
-},
-"watch_items": [
-"Any rescoping or schedule changes to the largest manufacturing mega-projects that can swing regional demand.",
-"Continuation of Midwest permit strength versus national—key for reStarts-linked services."
-]
-},
-"south": {
-"external_drivers": "South demand (Florida-weighted) is supported by a large state transportation work program and ongoing grid modernization tied to population growth, but housing permits/starts in the broader South were weaker in 2025, limiting construction-linked tailwinds. The mix favors public infrastructure and regulated utility programs over discretionary new-build.",
-"influencers": [
-"Florida FY25–26 transportation investments and work program scale support sustained DOT/environmental review demand.",
-"South region housing permits and starts were down in 2025, constraining reStarts-linked service demand.",
-"Utility modernization and growth-driven capex in Florida is supported by Duke Energy’s expanded capital plan framework."
-],
-"investment_recs": {
-"municipal": {
-"rating": "Moderate Invest",
-"text": "SRF/IIJA water funding totals for Florida support continued municipal rehab and compliance projects; prioritize funded, programmatic work. (Source: EPA FY2025 SRF allotments)"
-},
-"reStarts": {
-"rating": "Light",
-"text": "South permits were down in 2025 and statewide Florida permits were modestly lower YoY, implying a selective approach to construction-linked permitting and site work. (Sources: NAHB summary via Florida Realtors; HBWeekly FL analysis)"
-},
-"reBrownfield": {
-"rating": "Light",
-"text": "Maintain coverage for redevelopment and industrial turnover but expect mixed private pacing; prioritize compliance-driven scopes over discretionary redevelopment. (Source: NAHB permits/starts context)"
-},
-"power": {
-"rating": "Moderate Invest",
-"text": "Florida grid modernization and growth-driven utility capex are supportive, though West remains the strongest utility capex concentration; invest for steady pipeline capture. (Source: Duke Energy Florida capex plan expansion)"
-},
-"stateDot": {
-"rating": "Strong Invest",
-"text": "Florida’s state transportation work program scale supports consistent demand for DOT engineering and environmental services over the next 6–12 months. (Source: FDOT FY25–26 release)"
-}
-},
-"watch_items": [
-"Reacceleration or further softening in South housing permits—key driver for reStarts demand.",
-"FDOT letting cadence and potential budget reallocations that could shift project timing."
-]
-},
-"eng_pw": {
-"external_drivers": "Power engineering demand is supported by multi-year utility grid hardening, modernization, and resilience programs, particularly in California, alongside broader national grid transition complexity. Large capex plans and wildfire mitigation programs provide low-discretion visibility, sustaining strong demand for substation, T&D, and utility coordination work.",
-"market_mix_analysis": [
-{
-"label": "Utility hardening programs",
-"text": "Wildfire mitigation and system hardening (covered conductor, undergrounding, vegetation/system upgrades) create multi-year engineering backlogs in key utility territories."
-},
-{
-"label": "Modernization and reliability",
-"text": "Rate-case frameworks and authorized capital for aging infrastructure and grid modernization support steady substation and protection/control engineering demand."
-},
-{
-"label": "Planning for new loads",
-"text": "Electrification and large-load enablement requires distribution and transmission planning and interconnection work, increasing technical complexity and engineering intensity."
-}
-],
-"investment_recs": [
-"Prioritize utility program capture tied to multi-year approved hardening/modernization work (substations, protection/control, civil/structural) where capex is explicitly planned and authorized.",
-"Build execution capacity for undergrounding and covered conductor design packages where wildfire mitigation plans specify substantial circuit-mile targets.",
-"Maintain a strong transmission planning and interconnection bench to support ISO/utility planning initiatives driven by the evolving resource mix."
-],
-"watch_items": [
-"Regulatory timing for cost recovery and affordability pressure that could re-phase certain utility programs.",
-"Supply-chain and contractor availability that can delay field execution and shift engineering workload timing."
-]
-},
-"eng_og": {
-"external_drivers": "Oil & gas engineering demand is tied to upstream and midstream facility capex cycles, which remain constrained by capital discipline and a cautious 2026 spending outlook. Rig counts are down year-over-year, and surveys report a meaningful share of producers planning lower 2026 budgets, keeping facility engineering growth muted despite commodity price volatility.",
-"market_mix_analysis": [
-{
-"label": "Capex discipline persists",
-"text": "Industry commentary and surveys indicate continued focus on capital discipline and flat-to-down 2026 budgets for many operators, limiting new facility project starts."
-},
-{
-"label": "Drilling intensity softer",
-"text": "The U.S. rig count remains lower than a year ago, signaling subdued drilling-driven facility expansion needs near term."
-},
-{
-"label": "Commodity prices volatile",
-"text": "WTI and gas prices show volatility but do not, by themselves, reverse capex discipline without sustained higher forward expectations."
-}
-],
-"investment_recs": [
-"Focus on smaller-batch facility upgrades, debottlenecking, and reliability projects that proceed under disciplined capex rather than betting on large greenfield expansions.",
-"Maintain flexibility to scale engineering support quickly if prices and capex expectations shift upward, using rig count and capex survey updates as triggers.",
-"Prioritize midstream facility engineering opportunities that align with essential throughput and reliability needs rather than discretionary growth builds."
-],
-"watch_items": [
-"Weekly rig count direction and any sustained inflection that would signal higher facility engineering demand.",
-"2026 capex survey updates and WTI/HH forward expectations as the primary catalysts for demand shifts."
-]
-},
-"nbe_ehs": {
-"external_drivers": "EHS and facilities engineering demand is supported by ongoing industrial operational compliance needs and the multi-year wave of advanced manufacturing and broader facilities investment. Even where headline manufacturing construction spending cools from peak levels, the scale of announced projects and active mega-project execution sustains EHS program and facility upgrade work.",
-"market_mix_analysis": [
-{
-"label": "Manufacturing corridor expansion",
-"text": "Large announced semiconductor ecosystem projects and ongoing construction drive sustained facility design, safety, and operational readiness needs."
-},
-{
-"label": "Operational compliance baseline",
-"text": "Even in slower macro periods, operating plants require recurring EHS compliance programs, industrial hygiene, and environmental management support."
-},
-{
-"label": "Construction cycle variability",
-"text": "Cooling in manufacturing construction spending growth implies demand shifts from rapid expansion to execution, commissioning, and sustainment phases."
-}
-],
-"investment_recs": [
-"Target EHS program support and industrial hygiene offerings aligned to active advanced manufacturing buildouts and commissioning windows.",
-"Develop repeatable facility compliance and management-system packages that scale across multi-site industrial clients.",
-"Emphasize retrofit/upgrade engineering and compliance support for operating plants where capex is targeted to reliability and productivity."
-],
-"watch_items": [
-"Any broad pullback in manufacturing construction put-in-place that would reduce new facility ramp activity.",
-"Project timing changes for major mega-projects that can move commissioning/compliance workload by quarters."
-]
-},
-"nbe_flow": {
-"external_drivers": "Flow simulation and optimization demand is supported by municipal water/wastewater rehabilitation, hydraulic modeling tied to SRF-funded capital programs, and system performance optimization projects. Funding structures that emphasize emerging contaminants and rehabilitation sustain modeling and optimization needs, though delivery pacing can be lumpy by bid/award cycles.",
-"market_mix_analysis": [
-{
-"label": "SRF-funded modeling demand",
-"text": "Large FY2025 SRF allotments support continued project pipelines where hydraulic/hydrologic modeling and optimization are required for design and rehabilitation."
-},
-{
-"label": "Compliance-driven upgrades",
-"text": "Emerging contaminants funding and subsidy structures support treatment process changes that often require network/process modeling and optimization studies."
-},
-{
-"label": "Pacing and procurement",
-"text": "Municipal procurement cycles can delay starts even with funding, smoothing near-term growth rather than accelerating sharply."
-}
-],
-"investment_recs": [
-"Standardize rapid-turn hydraulic modeling workflows for utilities executing SRF-funded rehabilitation programs.",
-"Invest in process optimization capability for treatment upgrades tied to emerging contaminant compliance funding.",
-"Build repeatable stormwater/hydrologic modeling offerings for projects funded through public infrastructure programs."
-],
-"watch_items": [
-"Changes in SRF allotment timing and state Intended Use Plan pacing that could shift modeling demand timing.",
-"Municipal bid/award cadence as a leading indicator of near-term modeling workload."
-]
-},
-"nbe_sf": {
-"external_drivers": "Superfund and remediation coordination demand remains anchored by long-duration regulatory programs and federal/state project pipelines, but near-term growth is typically low-to-mid single digits due to procurement pacing and program budgeting cycles. Stable baseline conditions support steady coordination and regulatory interface work without a clear new catalyst for rapid acceleration.",
-"market_mix_analysis": [
-{
-"label": "Long-duration program work",
-"text": "Remediation programs tend to run over multi-year horizons, supporting steady coordination needs rather than sharp cyclical swings."
-},
-{
-"label": "Federal pacing constraints",
-"text": "Federal spending contribution and procurement timing can constrain near-term growth even when long-term needs are large."
-},
-{
-"label": "Mixed redevelopment linkage",
-"text": "Some remediation timing is influenced by redevelopment cycles, which are mixed alongside softer permits/starts signals."
-}
-],
-"investment_recs": [
-"Maintain strong regulatory interface and stakeholder coordination capacity for multi-year remediation programs.",
-"Develop repeatable project controls and coordination playbooks to manage long-duration remediation schedules and reporting.",
-"Target remediation coordination where public funding and program pipelines are most stable, avoiding overexposure to discretionary redevelopment-driven sites."
-],
-"watch_items": [
-"Federal budget/procurement timing that could delay task orders or slow program starts.",
-"Private redevelopment cycle shifts that can change remediation sequencing."
-]
-},
-"nbe_aq": {
-"external_drivers": "Aquatic ecology and eco-engineering demand is supported by transportation/environmental mitigation needs and public infrastructure programs where wetland/stream restoration and ecological design are embedded in project delivery. Continued IIJA-supported transportation funding and large state work programs support a steady pipeline, with timing driven by permitting and project letting schedules.",
-"market_mix_analysis": [
-{
-"label": "DOT mitigation embedded",
-"text": "Ecological mitigation work is often embedded in transportation delivery (wetlands/streams restoration), which benefits from ongoing IIJA and state work programs."
-},
-{
-"label": "Permitting-driven timing",
-"text": "Project timing depends on NEPA and permitting milestones, which can create quarter-to-quarter variability even when funding is solid."
-},
-{
-"label": "Resilience and restoration",
-"text": "Public infrastructure emphasis on resilience can increase ecological restoration scopes tied to flood and storm impacts."
-}
-],
-"investment_recs": [
-"Prioritize wetland/stream mitigation and ecological design packages aligned to DOT letting pipelines.",
-"Strengthen permitting and ecological baseline assessment capability to reduce schedule risk for clients navigating NEPA/agency review.",
-"Develop rapid mobilization capacity for restoration work tied to resilience and storm recovery programs where state funding is active."
-],
-"watch_items": [
-"Any slowdown in DOT project obligations/outlays that would delay embedded ecological scopes.",
-"Changes to NEPA/permitting timelines that could shift ecological work sequencing."
-]
-}
-}
+  "last_updated": "2026-04-03",
+  "consolidated": {
+    "summary": "External engineering services demand remains led by power-grid modernization and compliance-driven municipal water programs, while new construction-linked work stays soft due to weaker permit momentum. Industrial/manufacturing remains a bright spot where mega-project construction continues, but commodity-driven oil & gas remains capped by capital discipline and a still-cautious E&P spending posture. Overall, the mix favors regulated/mandated spend over discretionary new-build, supporting mid-single to low-double-digit consolidated external growth with moderate confidence.",
+    "tailwinds": [
+      "Utility grid hardening and modernization spending remains elevated, including major multi-year wildfire mitigation and rate-case supported investments (PG&E multi-year capex plan; SCE multi-year GRC/WMP). (Sources: PG&E capex plan; CPUC SCE GRC; SCE WMP)",
+      "Water infrastructure funding remains structurally supported by SRF/IIJA allotments (FY2025 DWSRF totals include large allocations for CA/FL/OH and emerging contaminants). (Source: EPA FY2025 SRF allotments)",
+      "Transportation capital programs remain robust in select states, including Florida’s FY25–26 transportation budget and New York’s fully funded MTA 2025–29 capital plan. (Sources: FDOT FY25–26; NY FY26 budget/MTA plan)"
+    ],
+    "headwinds": [
+      "Housing permits and starts remain a mixed-to-soft leading indicator environment, with regional declines in permits limiting reStarts-linked demand upside. (Source: NAHB regional 2025 permits/starts summary via Florida Realtors/NAHB)",
+      "State fiscal constraints can slow discretionary capital starts even where long-term needs are large (e.g., California multi-year budget deficits). (Source: CA LAO spending plan overview)",
+      "E&P operators continue to emphasize capital discipline and some surveys show higher shares planning to trim 2026 capex, keeping oilGas engineering demand muted. (Sources: Dallas Fed survey reporting; RSM outlook summary)"
+    ],
+    "watch_items": [
+      "Near-term housing permit direction as the best leading indicator for reStarts-linked work; sustained YoY permit declines would keep growth in low single digits or negative. (Source: NAHB regional permits/starts summary via Florida Realtors/NAHB)",
+      "Oil and gas price and capex expectations into 2026 (WTI volatility and survey-based capex trimming signal), which will directly flow through to upstream/midstream facility engineering demand. (Sources: FRED WTI; Dallas Fed survey reporting)"
+    ],
+    "confidence": "Medium"
+  },
+  "markets": {
+    "power": {
+      "extGrowth": 14.5,
+      "status": "Runway strong (utility capex + mandated resilience)",
+      "statusClass": "badge-strong-positive",
+      "kpis": [
+        {
+          "dot": "p",
+          "text": "PG&E disclosed a multi‑year investment plan (~$73B over five years) emphasizing infrastructure upgrades and load growth enablement, supporting sustained T&D/substation engineering demand. (Source: POWER Magazine on PG&E plan)"
+        },
+        {
+          "dot": "p",
+          "text": "SCE wildfire mitigation plan anticipates ~$6.2B of investment over 2026–2028, including covered conductor and undergrounding, sustaining engineering-intensive programs. (Source: Edison International newsroom)"
+        },
+        {
+          "dot": "p",
+          "text": "CPUC’s SCE 2025 GRC authorizes multi-year revenues with major investments in wildfire risk reduction, aging infrastructure upgrades, and a “future-ready grid.” (Source: CPUC fact sheet)"
+        },
+        {
+          "dot": "p",
+          "text": "Grid transition work and transmission planning intensity remains high in New England, reflecting ongoing reliability/transition initiatives that require technical engineering support. (Source: ISO-NE 2026 Annual Work Plan summary)"
+        },
+        {
+          "dot": "c",
+          "text": "California’s state budget remains in deficit mode, which can temper some discretionary public capital starts even as regulated utility capex stays strong. (Source: CA LAO spending plan overview)"
+        }
+      ],
+      "tailwind": "Regulated utility capital programs (grid hardening, wildfire mitigation, modernization, and electrification load enablement) provide multi-year, low-discretion demand visibility, supporting above-trend engineering growth.",
+      "headwind": "State fiscal pressures can slow some discretionary infrastructure starts, and permitting/implementation bottlenecks can delay timing even when programs are funded."
+    },
+    "municipal": {
+      "extGrowth": 6.8,
+      "status": "Steady expansion (SRF + PFAS-driven work)",
+      "statusClass": "badge-positive",
+      "kpis": [
+        {
+          "dot": "p",
+          "text": "FY2025 Drinking Water SRF allotments show substantial combined base + IIJA funding, including large totals for CA ($468.7M), FL ($156.8M), and OH ($98.1M), supporting municipal capital programs. (Source: EPA FY2025 SRF allotments)"
+        },
+        {
+          "dot": "p",
+          "text": "EPA SRF communications emphasize FY2025 allotments and continued funding rounds aimed at drinking water improvements and lead reduction, sustaining programmatic demand. (Source: EPA DWSRF page)"
+        },
+        {
+          "dot": "p",
+          "text": "EPA memorandum details SRF/IIJA structures including emerging contaminants funding as 100% additional subsidy, supporting PFAS/emerging contaminant compliance projects. (Source: EPA FY2025 SRF allotments memo)"
+        },
+        {
+          "dot": "p",
+          "text": "Florida’s FY25–26 transportation/work program investment indicates continued state-level capital program execution capacity, consistent with broader public infrastructure spend resilience. (Source: FDOT FY25–26 release)"
+        },
+        {
+          "dot": "n",
+          "text": "Project delivery capacity constraints (labor, procurement) can slow municipal bid/award timing even when funding is available, creating near-term pacing risk. (Indicator context: elevated infrastructure execution volume implied by SRF totals) (Source: EPA FY2025 SRF allotments)"
+        }
+      ],
+      "tailwind": "SRF/IIJA funding and emerging contaminants allocations support durable municipal water/wastewater design and compliance demand, with relatively low client discretion once programs are programmed.",
+      "headwind": "Execution pacing can be uneven as utilities/municipalities manage procurement cycles and delivery constraints, moderating near-term acceleration despite strong funding availability."
+    },
+    "reBrownfield": {
+      "extGrowth": 7.0,
+      "status": "Positive but selective (reg-driven redevelopment)",
+      "statusClass": "badge-positive",
+      "kpis": [
+        {
+          "dot": "p",
+          "text": "Industrial and manufacturing investment remains active in several regions, sustaining due diligence and remediation needs tied to site redevelopment and facility upgrades. (Context: CHIPS-driven supply chain investment wave) (Source: Semiconductor Industry Association investment tracker)"
+        },
+        {
+          "dot": "p",
+          "text": "Large-scale advanced manufacturing projects continue to progress (e.g., Intel Ohio One ongoing construction and cumulative multi-year spend), supporting brownfield/industrial site work adjacent to redevelopment cycles. (Source: Intel Ohio One timeline update)"
+        },
+        {
+          "dot": "p",
+          "text": "Federal environmental programs remain a steady baseline (e.g., ongoing Superfund/NPL and agency environmental activity), supporting regulatory-driven assessment and remediation work. (Baseline context supported by continued federal contracting environment) (Source: BEA/US macro does not directly cover; maintain neutral KPI with program stability) (Source proxy: BEA GDP release indicates continued investment contribution, but federal spend decelerated in Q4 2025)"
+        },
+        {
+          "dot": "n",
+          "text": "Private redevelopment timing is sensitive to financing and construction cycles; softening permits/starts can indirectly reduce near-term redevelopment churn. (Source: NAHB regional permits/starts summary via Florida Realtors/NAHB)"
+        },
+        {
+          "dot": "c",
+          "text": "Net effect is selective strength: compliance-driven work remains durable, but discretionary redevelopment cadence is mixed alongside broader construction normalization. (Source: NAHB regional permits/starts summary via Florida Realtors/NAHB)"
+        }
+      ],
+      "tailwind": "Regulatory-driven redevelopment and industrial site turnover continue to generate steady Phase I/II and remediation support, especially where manufacturing investment concentrates.",
+      "headwind": "Discretionary redevelopment can slow when private construction momentum softens, reducing near-term transaction and redevelopment velocity."
+    },
+    "reStarts": {
+      "extGrowth": -2.0,
+      "status": "Still weak (permits soft; site work pressured)",
+      "statusClass": "badge-negative",
+      "kpis": [
+        {
+          "dot": "neg",
+          "text": "Regional 2025 permit activity was down in the Northeast (-7.7%), South (-5.2%), and West (-1.9%), limiting forward site-civil/permitting demand tied to new starts. (Source: NAHB regional permit summary via Florida Realtors)"
+        },
+        {
+          "dot": "n",
+          "text": "Single-family starts nationally were down in 2025 versus 2024 (-6.9%), a headwind for site/civil demand tied to housing. (Source: NAHB data summary via Florida Realtors)"
+        },
+        {
+          "dot": "c",
+          "text": "Florida’s construction market shows a “reset” dynamic with modest statewide permit declines (~4% YoY) and pockets of strength, but not a broad rebound signal. (Source: HBWeekly Florida permitting analysis)"
+        },
+        {
+          "dot": "n",
+          "text": "January 2026 national permits fell 5.4% m/m, signaling near-term caution in new project authorizations despite volatile monthly starts. (Source: U.S. Census New Residential Construction, Jan 2026)"
+        },
+        {
+          "dot": "c",
+          "text": "Momentum remains mixed: multifamily volatility can lift starts temporarily, but permits are the tighter leading indicator and remain soft. (Source: TD Economics commentary on Jan 2026 starts/permits)"
+        }
+      ],
+      "tailwind": "Localized pockets (select Florida subregions and intermittent multifamily bursts) can create tactical opportunities, but they are not yet a broad cycle turn.",
+      "headwind": "Permits remain the key leading indicator and are declining in several regions and in recent monthly data, keeping reStarts-linked demand flat-to-negative near term."
+    },
+    "federal": {
+      "extGrowth": 1.5,
+      "status": "Flat-to-low growth (steady programs; budget uncertainty)",
+      "statusClass": "badge-neutral",
+      "kpis": [
+        {
+          "dot": "c",
+          "text": "Federal macro backdrop shows slower GDP growth in late 2025 with a downturn in government spending contribution in Q4, consistent with a cautious near-term federal services growth environment. (Source: BEA GDP second estimate Q4 2025)"
+        },
+        {
+          "dot": "p",
+          "text": "Transportation IIJA funding continues to progress with a large share obligated and outlayed, supporting federally assisted infrastructure execution. (Source: USDOT IIJA funding status as of Jan 31, 2026)"
+        },
+        {
+          "dot": "c",
+          "text": "Some IIJA funds/authorities are staged, with portions becoming available later, which can smooth growth rather than accelerate sharply. (Source: GAO IIJA grant status report)"
+        },
+        {
+          "dot": "n",
+          "text": "Timing risk remains tied to appropriations, agency procurement cycles, and potential federal policy uncertainty, limiting near-term acceleration. (Source: BEA note re shutdown rescheduling and revisions in GDP release context)"
+        },
+        {
+          "dot": "c",
+          "text": "Overall demand signal is stable but not strongly accelerating; maintain near-prior growth absent a clear new federal program catalyst. (Source: USDOT IIJA funding status)"
+        }
+      ],
+      "tailwind": "Ongoing federally assisted infrastructure and environmental programs provide a stable baseline of demand, especially where formula funding is already flowing.",
+      "headwind": "Appropriations timing and procurement pacing can keep growth in low single digits, with elevated uncertainty around the timing of incremental program starts."
+    },
+    "industrial": {
+      "extGrowth": 4.5,
+      "status": "Improving (manufacturing investment tailwind)",
+      "statusClass": "badge-positive",
+      "kpis": [
+        {
+          "dot": "p",
+          "text": "Semiconductor ecosystem projects exceed $640B in announced investments across 140+ projects since 2020, supporting multi-year facilities and compliance engineering demand across industrial supply chains. (Source: Semiconductor Industry Association tracker, last updated Jan 30, 2026)"
+        },
+        {
+          "dot": "p",
+          "text": "Mega-project construction continues in Ohio (Intel Ohio One ongoing, with multi-year completion horizon), sustaining long-duration industrial site and facility engineering demand. (Source: Intel Ohio One timeline update)"
+        },
+        {
+          "dot": "p",
+          "text": "Reported 2025 spend on Intel Ohio One was ~$1.4B–$1.53B, indicating continued active construction and associated engineering pull-through. (Sources: WKBN/NBC4 and WHIO reporting on Intel annual report)"
+        },
+        {
+          "dot": "c",
+          "text": "Manufacturing construction spending has shown signs of cooling from peak levels in recent political/economic narratives, implying the need to be selective by subsector and region. (Source: FactCheck.org summary citing Census construction data)"
+        },
+        {
+          "dot": "p",
+          "text": "Net signal remains positive because the active pipeline is large and multi-year even if the growth rate moderates from peak boom conditions. (Source: SIA tracker)"
+        }
+      ],
+      "tailwind": "Large, multi-year advanced manufacturing and broader reshoring-linked facility programs sustain EHS, permitting, and facilities engineering demand even if headline construction spending growth normalizes.",
+      "headwind": "Growth is uneven and can moderate as projects shift from announcement to execution and as broader manufacturing construction spending cools from peak levels, requiring subsector selectivity."
+    },
+    "stateDot": {
+      "extGrowth": 5.5,
+      "status": "Solid (state work programs + IIJA flow)",
+      "statusClass": "badge-positive",
+      "kpis": [
+        {
+          "dot": "p",
+          "text": "Florida’s FY25–26 budget includes ~$15.1B in transportation investments and $13.7B for the State Transportation Work Program, supporting sustained DOT engineering demand. (Source: FDOT FY25–26 release)"
+        },
+        {
+          "dot": "p",
+          "text": "New York FY26 enacted budget fully funds the MTA’s $68.4B 2025–29 capital plan and includes historic investments in roads/bridges, supporting transportation-adjacent engineering work. (Source: NY Division of the Budget press release)"
+        },
+        {
+          "dot": "p",
+          "text": "IIJA highway and transportation funding framework continues through FY2026 with formula apportionments, supporting a durable state DOT funding backdrop. (Source: FHWA IIJA funding overview)"
+        },
+        {
+          "dot": "p",
+          "text": "DOT reports IIJA funding progress with substantial obligations/outlays, indicating ongoing conversion of authorizations into projects. (Source: USDOT IIJA funding status)"
+        },
+        {
+          "dot": "c",
+          "text": "Delivery pacing varies by state as projects move through design, environmental review, and procurement, which can smooth near-term growth. (Source: USDOT IIJA funding status methodology notes)"
+        }
+      ],
+      "tailwind": "Large state work programs and continued IIJA formula/discretionary flows sustain a favorable pipeline for DOT and transportation environmental/NEPA-related engineering.",
+      "headwind": "Project conversion timing can be lumpy due to environmental review, procurement, and right-of-way constraints, moderating the pace of near-term acceleration."
+    },
+    "oilGas": {
+      "extGrowth": 1.0,
+      "status": "Muted (capex discipline; volatile prices)",
+      "statusClass": "badge-neutral",
+      "kpis": [
+        {
+          "dot": "c",
+          "text": "Baker Hughes rig count shows U.S. rigs at 543 (week of Mar 27, 2026), down year-over-year (-49 vs Mar 28, 2025), indicating subdued drilling intensity. (Source: Baker Hughes rig count)"
+        },
+        {
+          "dot": "n",
+          "text": "Dallas Fed survey commentary indicates oil & gas activity slowing and a meaningful share of respondents expecting 2026 budgets to be lower, consistent with disciplined E&P capex. (Source: Journal of Petroleum Technology summary of Dallas Fed survey)"
+        },
+        {
+          "dot": "c",
+          "text": "Forecast discussions for 2026 include expectations of potentially lower WTI price scenarios versus company assumptions, which can constrain new upstream project starts. (Source: RSM oil & gas outlook for 2026)"
+        },
+        {
+          "dot": "c",
+          "text": "Henry Hub natural gas spot price was about $3.05/MMBtu in Mar 2026, suggesting stable-to-moderate gas price support but not a clear breakout catalyst. (Source: FRED Henry Hub)"
+        },
+        {
+          "dot": "c",
+          "text": "WTI spot price was ~$90.84/bbl in Mar 2026 (monthly), reflecting volatility but not enough alone to overcome capex discipline without sustained higher price expectations. (Source: FRED WTI)"
+        }
+      ],
+      "tailwind": "Stable-to-moderate commodity pricing can sustain essential facility modifications and maintenance capital, but the upside is capped by ongoing capital discipline.",
+      "headwind": "Rig counts remain down year-over-year and surveys indicate cautious 2026 capex planning, keeping upstream/midstream facility engineering growth in low single digits."
+    }
+  },
+  "value_drivers": [
+    {
+      "rank": 1,
+      "title": "Regulated Infrastructure Demand Visibility",
+      "body": "Buyers pay premiums for firms embedded in regulated, non-discretionary infrastructure markets where demand is driven by statute, asset condition, and public funding rather than economic cycles. Exposure to power, water, environmental compliance, and transportation reduces downside risk and increases confidence in revenue durability, supporting higher multiples and deal certainty in near-term recap events.",
+      "tags": [
+        "regulated-demand",
+        "visibility",
+        "infrastructure"
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "Scarce Integrated Environmental Platform",
+      "body": "Integrated platforms spanning permitting, compliance, design, remediation, and monitoring are increasingly scarce at meaningful scale. Buyers favor firms that reduce fragmentation, deepen client relationships across asset lifecycles, and enable bundled, repeatable workstreams within regulated markets.",
+      "tags": [
+        "integration",
+        "scarcity-value",
+        "platform"
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "Regulatory Complexity Competitive Moat",
+      "body": "Operating where engineering execution intersects with complex environmental and permitting regimes creates high switching costs and mission-critical positioning. Buyers value firms whose relevance and pricing power increase as regulatory scrutiny and compliance requirements intensify, lowering competitive and substitution risk.",
+      "tags": [
+        "regulatory-moat",
+        "mission-critical",
+        "defensible"
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "Roll-Up Ready Platform Synergies",
+      "body": "A diversified geographic and service footprint across public, energy, and environmental markets enables immediate synergy realization and add-on optionality. Strategic and private equity buyers pay higher entry multiples for platforms that can absorb tuck-ins efficiently without operational or cultural disruption.",
+      "tags": [
+        "roll-up",
+        "synergies",
+        "scalability"
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Scalable Talent with Digital Leverage",
+      "body": "Low voluntary attrition, strong culture, and disciplined use of digital tools and AI-enabled workflows signal execution reliability and operating leverage. Buyers favor firms that can scale delivery and knowledge reuse without proportional headcount growth, reducing integration and margin risk post-close.",
+      "tags": [
+        "culture-moat",
+        "digital-leverage",
+        "execution"
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "Long-Duration Client Embedment",
+      "body": "Multi-year relationships with utilities, municipalities, DOTs, and industrial operators generate repeat, programmatic work rather than one-off projects. Buyers assign incremental value to evidence of durable client embedment that lowers re-bid risk and smooths demand through economic cycles.",
+      "tags": [
+        "client-embedded",
+        "repeat-work",
+        "durability"
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Low Cyclicality Public Market Exposure",
+      "body": "A service mix weighted toward public-sector, regulated, and compliance-driven work materially reduces exposure to private construction volatility. Buyers differentiate platforms that sustain performance through downturns, enhancing downside protection and confidence in valuation underwriting.",
+      "tags": [
+        "low-cyclicality",
+        "public-markets",
+        "downside-protection"
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "Execution Reliability at Scale",
+      "body": "Consistent delivery across complex, multi-stakeholder projects signals strong internal systems, governance, and risk management. Buyers place value on platforms that demonstrate predictable execution across geographies and regulatory regimes, minimizing post-close execution risk.",
+      "tags": [
+        "delivery-certainty",
+        "risk-management",
+        "scale"
+      ]
+    }
+  ],
+  "geo_adjustment_factors": {
+    "northeast": {
+      "factor": 0.9,
+      "rationale": "Despite large transit/repair programs (e.g., MA MBTA capital plan and NY MTA capital plan), private construction leading indicators remain softer in permits for the Northeast, keeping regional demand below national average on balance. (Sources: NY FY26 budget/MTA plan; NAHB regional permit summary via Florida Realtors; MBTA CIP)"
+    },
+    "west": {
+      "factor": 1.2,
+      "rationale": "California-weighted West remains strongest due to exceptional utility capex concentration (multi-year PG&E plan and SCE wildfire/grid modernization investments), sustaining above-average engineering demand relative to national. (Sources: PG&E capex plan; SCE wildfire mitigation plan; CPUC SCE GRC)"
+    },
+    "midwest": {
+      "factor": 1.15,
+      "rationale": "Ohio-weighted Midwest remains above average as long-duration advanced manufacturing mega-project construction continues (Intel Ohio One) and Midwest regional starts/permits were relatively stronger than other regions in 2025, supporting broader A/E/C demand. (Sources: Intel Ohio One update; NAHB regional starts/permits summary via Florida Realtors)"
+    },
+    "south": {
+      "factor": 1.05,
+      "rationale": "Florida-weighted South stays modestly above average due to a large state transportation work program and ongoing grid modernization investment, partially offset by softer South housing permits/starts trends. (Sources: FDOT FY25–26; NAHB regional starts/permits summary via Florida Realtors)"
+    }
+  },
+  "pl_narratives": {
+    "northeast": {
+      "external_drivers": "Northeast demand is supported by major public transit and state-of-good-repair programs, including fully funded MTA capital investments and ongoing MBTA modernization priorities. However, softer regional permit trends and higher cost/friction in private development keep new-build-driven demand below national, shifting the mix toward public programs and maintenance-heavy work.",
+      "influencers": [
+        "NY MTA 2025–29 capital plan funding and execution pace (signals, stations, resiliency).",
+        "MBTA FY26–30 capital investment plan emphasizing safety, reliability, and modernization.",
+        "Northeast permitting softness relative to other regions constraining reStarts-linked work."
+      ],
+      "investment_recs": {
+        "municipal": {
+          "rating": "Moderate Invest",
+          "text": "SRF/IIJA water funding remains durable, and Northeast states continue to execute water/wastewater renewals; prioritize compliance and rehabilitation programs over discretionary expansions. (Source: EPA FY2025 SRF allotments)"
+        },
+        "reStarts": {
+          "rating": "Avoid",
+          "text": "Regional permits in the Northeast were down in 2025, limiting near-term site/civil and permitting demand tied to new construction; stay selective and avoid scaling for a broad rebound. (Source: NAHB permit summary via Florida Realtors)"
+        },
+        "reBrownfield": {
+          "rating": "Light",
+          "text": "Maintain capability for transaction-driven Phase I/II and redevelopment support, but expect mixed timing as private development activity remains uneven. (Source: NAHB permits/starts context)"
+        },
+        "power": {
+          "rating": "Moderate Invest",
+          "text": "Invest selectively in grid transition planning and reliability modernization where regional ISOs/TOs advance long-term initiatives, but the West remains the strongest utility capex center. (Source: ISO-NE work plan)"
+        },
+        "stateDot": {
+          "rating": "Strong Invest",
+          "text": "Public transportation and state/federal transport capital programs are a core Northeast strength (NY MTA fully funded plan), supporting consistent NEPA/environmental and design work. (Source: NY FY26 budget/MTA plan)"
+        }
+      },
+      "watch_items": [
+        "Direction of Northeast building permits as the key leading indicator for reStarts-linked work.",
+        "Timing/letting cadence of major transit capital programs (MTA/MBTA) that can shift quarterly demand."
+      ]
+    },
+    "west": {
+      "external_drivers": "West demand is driven disproportionately by California utility capital programs: grid hardening, wildfire mitigation, and modernization to support electrification and load growth. Multi-year capex plans and regulatory frameworks provide high visibility and low discretion, making the West the strongest region relative to national.",
+      "influencers": [
+        "PG&E multi‑year capex plan supporting T&D, modernization, and undergrounding programs.",
+        "SCE 2026–28 wildfire mitigation investments sustaining engineering-intensive hardening work.",
+        "California fiscal constraints may affect discretionary public projects but utilities remain robust."
+      ],
+      "investment_recs": {
+        "municipal": {
+          "rating": "Moderate Invest",
+          "text": "Municipal water/wastewater demand remains strong where SRF/IIJA funding is large (California totals are high), with emphasis on compliance and rehabilitation programs. (Source: EPA FY2025 SRF allotments)"
+        },
+        "reStarts": {
+          "rating": "Light",
+          "text": "West permits were modestly down in 2025, keeping construction-linked permitting/site work from becoming a growth engine; stay selective by submarket and project type. (Source: NAHB permit summary via Florida Realtors)"
+        },
+        "reBrownfield": {
+          "rating": "Moderate Invest",
+          "text": "Industrial redevelopment and compliance-driven remediation remain supportive, particularly around manufacturing and infrastructure-adjacent sites, though timing is mixed with private construction normalization. (Source: SIA investment tracker)"
+        },
+        "power": {
+          "rating": "Strong Invest",
+          "text": "West is the clearest power-engineering growth engine due to multi-year, rate-case-supported grid hardening and modernization programs. (Sources: PG&E plan; CPUC SCE GRC; SCE WMP)"
+        },
+        "stateDot": {
+          "rating": "Moderate Invest",
+          "text": "Transportation funding remains durable nationally via IIJA, but West outperformance is still primarily utility-driven; invest for steady DOT work rather than expecting it to match power momentum. (Sources: FHWA IIJA funding overview; USDOT IIJA status)"
+        }
+      },
+      "watch_items": [
+        "Regulatory approvals and execution pacing for California utility hardening and modernization programs.",
+        "California state budget decisions that could influence discretionary infrastructure timing outside regulated utilities."
+      ]
+    },
+    "midwest": {
+      "external_drivers": "Midwest demand is lifted by Ohio-weighted advanced manufacturing and long-duration mega-project construction, supporting facilities engineering, EHS, and adjacent infrastructure work. Regional construction indicators were relatively more resilient in 2025 than other regions, providing a broader base than a single-project story.",
+      "influencers": [
+        "Intel Ohio One remains a multi-year, active construction program with continued spend reported for 2025.",
+        "Midwest 2025 permits and starts were stronger than South/West on a regional basis, supporting broader site/civil activity.",
+        "SRF/IIJA water funding for Ohio supports municipal capital program demand."
+      ],
+      "investment_recs": {
+        "municipal": {
+          "rating": "Moderate Invest",
+          "text": "SRF/IIJA allocations for Ohio support steady municipal rehabilitation and compliance work; prioritize funded rehabilitation and emerging contaminant scopes. (Source: EPA FY2025 SRF allotments)"
+        },
+        "reStarts": {
+          "rating": "Moderate Invest",
+          "text": "Midwest region showed relatively stronger permit/starts trends in 2025 versus other regions, supporting selective growth in construction-linked permitting/site work. (Source: NAHB regional starts/permits summary via Florida Realtors)"
+        },
+        "reBrownfield": {
+          "rating": "Strong Invest",
+          "text": "Manufacturing investment and site turnover drive due diligence and remediation needs; mega-project ecosystems create steady Phase I/II and redevelopment compliance demand. (Sources: SIA tracker; Intel Ohio One update)"
+        },
+        "power": {
+          "rating": "Moderate Invest",
+          "text": "Utility modernization is supportive nationally, but Midwest relative advantage is more manufacturing-led; invest for steady grid work without assuming West-like intensity. (Source: ISO/grid transition context)"
+        },
+        "stateDot": {
+          "rating": "Moderate Invest",
+          "text": "IIJA formula funding sustains state DOT backlogs; prioritize NEPA/environmental services tied to programmed projects and bridge/road renewals. (Sources: FHWA IIJA funding; USDOT IIJA status)"
+        }
+      },
+      "watch_items": [
+        "Any rescoping or schedule changes to the largest manufacturing mega-projects that can swing regional demand.",
+        "Continuation of Midwest permit strength versus national—key for reStarts-linked services."
+      ]
+    },
+    "south": {
+      "external_drivers": "South demand (Florida-weighted) is supported by a large state transportation work program and ongoing grid modernization tied to population growth, but housing permits/starts in the broader South were weaker in 2025, limiting construction-linked tailwinds. The mix favors public infrastructure and regulated utility programs over discretionary new-build.",
+      "influencers": [
+        "Florida FY25–26 transportation investments and work program scale support sustained DOT/environmental review demand.",
+        "South region housing permits and starts were down in 2025, constraining reStarts-linked service demand.",
+        "Utility modernization and growth-driven capex in Florida is supported by Duke Energy’s expanded capital plan framework."
+      ],
+      "investment_recs": {
+        "municipal": {
+          "rating": "Moderate Invest",
+          "text": "SRF/IIJA water funding totals for Florida support continued municipal rehab and compliance projects; prioritize funded, programmatic work. (Source: EPA FY2025 SRF allotments)"
+        },
+        "reStarts": {
+          "rating": "Light",
+          "text": "South permits were down in 2025 and statewide Florida permits were modestly lower YoY, implying a selective approach to construction-linked permitting and site work. (Sources: NAHB summary via Florida Realtors; HBWeekly FL analysis)"
+        },
+        "reBrownfield": {
+          "rating": "Light",
+          "text": "Maintain coverage for redevelopment and industrial turnover but expect mixed private pacing; prioritize compliance-driven scopes over discretionary redevelopment. (Source: NAHB permits/starts context)"
+        },
+        "power": {
+          "rating": "Moderate Invest",
+          "text": "Florida grid modernization and growth-driven utility capex are supportive, though West remains the strongest utility capex concentration; invest for steady pipeline capture. (Source: Duke Energy Florida capex plan expansion)"
+        },
+        "stateDot": {
+          "rating": "Strong Invest",
+          "text": "Florida’s state transportation work program scale supports consistent demand for DOT engineering and environmental services over the next 6–12 months. (Source: FDOT FY25–26 release)"
+        }
+      },
+      "watch_items": [
+        "Reacceleration or further softening in South housing permits—key driver for reStarts demand.",
+        "FDOT letting cadence and potential budget reallocations that could shift project timing."
+      ]
+    },
+    "eng_pw": {
+      "external_drivers": "Power engineering demand is supported by multi-year utility grid hardening, modernization, and resilience programs, particularly in California, alongside broader national grid transition complexity. Large capex plans and wildfire mitigation programs provide low-discretion visibility, sustaining strong demand for substation, T&D, and utility coordination work.",
+      "market_mix_analysis": [
+        {
+          "label": "Utility hardening programs",
+          "text": "Wildfire mitigation and system hardening (covered conductor, undergrounding, vegetation/system upgrades) create multi-year engineering backlogs in key utility territories."
+        },
+        {
+          "label": "Modernization and reliability",
+          "text": "Rate-case frameworks and authorized capital for aging infrastructure and grid modernization support steady substation and protection/control engineering demand."
+        },
+        {
+          "label": "Planning for new loads",
+          "text": "Electrification and large-load enablement requires distribution and transmission planning and interconnection work, increasing technical complexity and engineering intensity."
+        }
+      ],
+      "investment_recs": [
+        "Prioritize utility program capture tied to multi-year approved hardening/modernization work (substations, protection/control, civil/structural) where capex is explicitly planned and authorized.",
+        "Build execution capacity for undergrounding and covered conductor design packages where wildfire mitigation plans specify substantial circuit-mile targets.",
+        "Maintain a strong transmission planning and interconnection bench to support ISO/utility planning initiatives driven by the evolving resource mix."
+      ],
+      "watch_items": [
+        "Regulatory timing for cost recovery and affordability pressure that could re-phase certain utility programs.",
+        "Supply-chain and contractor availability that can delay field execution and shift engineering workload timing."
+      ]
+    },
+    "eng_og": {
+      "external_drivers": "Oil & gas engineering demand is tied to upstream and midstream facility capex cycles, which remain constrained by capital discipline and a cautious 2026 spending outlook. Rig counts are down year-over-year, and surveys report a meaningful share of producers planning lower 2026 budgets, keeping facility engineering growth muted despite commodity price volatility.",
+      "market_mix_analysis": [
+        {
+          "label": "Capex discipline persists",
+          "text": "Industry commentary and surveys indicate continued focus on capital discipline and flat-to-down 2026 budgets for many operators, limiting new facility project starts."
+        },
+        {
+          "label": "Drilling intensity softer",
+          "text": "The U.S. rig count remains lower than a year ago, signaling subdued drilling-driven facility expansion needs near term."
+        },
+        {
+          "label": "Commodity prices volatile",
+          "text": "WTI and gas prices show volatility but do not, by themselves, reverse capex discipline without sustained higher forward expectations."
+        }
+      ],
+      "investment_recs": [
+        "Focus on smaller-batch facility upgrades, debottlenecking, and reliability projects that proceed under disciplined capex rather than betting on large greenfield expansions.",
+        "Maintain flexibility to scale engineering support quickly if prices and capex expectations shift upward, using rig count and capex survey updates as triggers.",
+        "Prioritize midstream facility engineering opportunities that align with essential throughput and reliability needs rather than discretionary growth builds."
+      ],
+      "watch_items": [
+        "Weekly rig count direction and any sustained inflection that would signal higher facility engineering demand.",
+        "2026 capex survey updates and WTI/HH forward expectations as the primary catalysts for demand shifts."
+      ]
+    },
+    "nbe_ehs": {
+      "external_drivers": "EHS and facilities engineering demand is supported by ongoing industrial operational compliance needs and the multi-year wave of advanced manufacturing and broader facilities investment. Even where headline manufacturing construction spending cools from peak levels, the scale of announced projects and active mega-project execution sustains EHS program and facility upgrade work.",
+      "market_mix_analysis": [
+        {
+          "label": "Manufacturing corridor expansion",
+          "text": "Large announced semiconductor ecosystem projects and ongoing construction drive sustained facility design, safety, and operational readiness needs."
+        },
+        {
+          "label": "Operational compliance baseline",
+          "text": "Even in slower macro periods, operating plants require recurring EHS compliance programs, industrial hygiene, and environmental management support."
+        },
+        {
+          "label": "Construction cycle variability",
+          "text": "Cooling in manufacturing construction spending growth implies demand shifts from rapid expansion to execution, commissioning, and sustainment phases."
+        }
+      ],
+      "investment_recs": [
+        "Target EHS program support and industrial hygiene offerings aligned to active advanced manufacturing buildouts and commissioning windows.",
+        "Develop repeatable facility compliance and management-system packages that scale across multi-site industrial clients.",
+        "Emphasize retrofit/upgrade engineering and compliance support for operating plants where capex is targeted to reliability and productivity."
+      ],
+      "watch_items": [
+        "Any broad pullback in manufacturing construction put-in-place that would reduce new facility ramp activity.",
+        "Project timing changes for major mega-projects that can move commissioning/compliance workload by quarters."
+      ]
+    },
+    "nbe_flow": {
+      "external_drivers": "Flow simulation and optimization demand is supported by municipal water/wastewater rehabilitation, hydraulic modeling tied to SRF-funded capital programs, and system performance optimization projects. Funding structures that emphasize emerging contaminants and rehabilitation sustain modeling and optimization needs, though delivery pacing can be lumpy by bid/award cycles.",
+      "market_mix_analysis": [
+        {
+          "label": "SRF-funded modeling demand",
+          "text": "Large FY2025 SRF allotments support continued project pipelines where hydraulic/hydrologic modeling and optimization are required for design and rehabilitation."
+        },
+        {
+          "label": "Compliance-driven upgrades",
+          "text": "Emerging contaminants funding and subsidy structures support treatment process changes that often require network/process modeling and optimization studies."
+        },
+        {
+          "label": "Pacing and procurement",
+          "text": "Municipal procurement cycles can delay starts even with funding, smoothing near-term growth rather than accelerating sharply."
+        }
+      ],
+      "investment_recs": [
+        "Standardize rapid-turn hydraulic modeling workflows for utilities executing SRF-funded rehabilitation programs.",
+        "Invest in process optimization capability for treatment upgrades tied to emerging contaminant compliance funding.",
+        "Build repeatable stormwater/hydrologic modeling offerings for projects funded through public infrastructure programs."
+      ],
+      "watch_items": [
+        "Changes in SRF allotment timing and state Intended Use Plan pacing that could shift modeling demand timing.",
+        "Municipal bid/award cadence as a leading indicator of near-term modeling workload."
+      ]
+    },
+    "nbe_sf": {
+      "external_drivers": "Superfund and remediation coordination demand remains anchored by long-duration regulatory programs and federal/state project pipelines, but near-term growth is typically low-to-mid single digits due to procurement pacing and program budgeting cycles. Stable baseline conditions support steady coordination and regulatory interface work without a clear new catalyst for rapid acceleration.",
+      "market_mix_analysis": [
+        {
+          "label": "Long-duration program work",
+          "text": "Remediation programs tend to run over multi-year horizons, supporting steady coordination needs rather than sharp cyclical swings."
+        },
+        {
+          "label": "Federal pacing constraints",
+          "text": "Federal spending contribution and procurement timing can constrain near-term growth even when long-term needs are large."
+        },
+        {
+          "label": "Mixed redevelopment linkage",
+          "text": "Some remediation timing is influenced by redevelopment cycles, which are mixed alongside softer permits/starts signals."
+        }
+      ],
+      "investment_recs": [
+        "Maintain strong regulatory interface and stakeholder coordination capacity for multi-year remediation programs.",
+        "Develop repeatable project controls and coordination playbooks to manage long-duration remediation schedules and reporting.",
+        "Target remediation coordination where public funding and program pipelines are most stable, avoiding overexposure to discretionary redevelopment-driven sites."
+      ],
+      "watch_items": [
+        "Federal budget/procurement timing that could delay task orders or slow program starts.",
+        "Private redevelopment cycle shifts that can change remediation sequencing."
+      ]
+    },
+    "nbe_aq": {
+      "external_drivers": "Aquatic ecology and eco-engineering demand is supported by transportation/environmental mitigation needs and public infrastructure programs where wetland/stream restoration and ecological design are embedded in project delivery. Continued IIJA-supported transportation funding and large state work programs support a steady pipeline, with timing driven by permitting and project letting schedules.",
+      "market_mix_analysis": [
+        {
+          "label": "DOT mitigation embedded",
+          "text": "Ecological mitigation work is often embedded in transportation delivery (wetlands/streams restoration), which benefits from ongoing IIJA and state work programs."
+        },
+        {
+          "label": "Permitting-driven timing",
+          "text": "Project timing depends on NEPA and permitting milestones, which can create quarter-to-quarter variability even when funding is solid."
+        },
+        {
+          "label": "Resilience and restoration",
+          "text": "Public infrastructure emphasis on resilience can increase ecological restoration scopes tied to flood and storm impacts."
+        }
+      ],
+      "investment_recs": [
+        "Prioritize wetland/stream mitigation and ecological design packages aligned to DOT letting pipelines.",
+        "Strengthen permitting and ecological baseline assessment capability to reduce schedule risk for clients navigating NEPA/agency review.",
+        "Develop rapid mobilization capacity for restoration work tied to resilience and storm recovery programs where state funding is active."
+      ],
+      "watch_items": [
+        "Any slowdown in DOT project obligations/outlays that would delay embedded ecological scopes.",
+        "Changes to NEPA/permitting timelines that could shift ecological work sequencing."
+      ]
+    }
+  }
 }
